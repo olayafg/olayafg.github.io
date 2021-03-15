@@ -1,0 +1,29 @@
+Must have .html extension
+Must be called index because that's what the browser looks for in the main website
+
+<html> start tag
+</html> end tag
+
+<body> is nested within html
+
+In the browser: file:/// -> the computer's file system
+Navigate to the index.html file (file:///Users/Olaya/git/olayafg.github.io/index.html)
+
+html doesn't care about whitespace, linebreaks...
+    <p> can have returns or tabs inside it and it will
+    render as 1 paragraph.
+<br/> linebreak
+
+Best place for CSS code is in the <head> of the html,
+before the <body>. Also the place for the metadata.
+
+<title> Appears on the tab in the browser, also the name if you bookmark
+
+<style> CSS language
+    name the tag to style and curly brackets {}
+    argument : (end each with ;)
+    margin: 3em (the width of 3 m)
+
+<img src="microscope.jpg"/> (self closing tab at the end)
+
+<a href=""> </a> link
