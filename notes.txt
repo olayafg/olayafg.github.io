@@ -27,3 +27,8 @@ before the <body>. Also the place for the metadata.
 <img src="microscope.jpg"/> (self closing tab at the end)
 
 <a href=""> </a> link
+
+
+Things to include:
+
+Portfolio > Writing > https://blogs.cuit.columbia.edu/postdocsociety/author/of2194/

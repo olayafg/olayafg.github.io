@@ -10,20 +10,28 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700;800&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+header {background-color: #BAB2B5;
+        color: #123C69;}
 h1 {font-family: "Montserrat", sans-serif; font-weight: 800;}
 h2 {font-family: "Montserrat", sans-serif; font-weight: 700;}
 h3,h4,h5,h6 {font-family: 'Lora', serif;}
 .w3-bar,button, body {font-family: "Montserrat", sans-serif; font-weight: 200;}
 .fa-list, .fa-handshake-o, .fa-wrench {font-size:100px}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
 </style>
 <body>
+<!--  -->
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-blue-grey w3-card w3-left-align w3-large">
+  <div class="w3-bar w3-card w3-left-align w3-large" style="background-color: #AC3B61;">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-white" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">About</a>
@@ -42,15 +50,23 @@ h3,h4,h5,h6 {font-family: 'Lora', serif;}
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-teal w3-center" style="padding:75px 12px">
-  <h1 class="w3-margin w3-jumbo">Olaya Fernández Gayol, PhD</h1>
-  <p class="w3-xlarge">(she/her/hers)</p>
-  <h2 class="w3-large">Postdoctoral Research Scientist</h2>
-  <p class="w3-large">Zeltser lab, Department of Pediatrics<br/> Columbia University Medical Center</p>
-  <p class="w3-large"> <a href="mailto:of2194@cumc.columbia.edu" target="_blank"> of2194@cumc.columbia.edu </a> </p>
-  <button class="w3-button w3-blue-grey w3-padding-large w3-large w3-margin-top">Full Bio</button>
-  <button class="w3-button w3-blue-grey w3-padding-large w3-large w3-margin-top"><a href="CV_Olaya_Fernandez_Gayol_2021.pdf" target="_blank">CV</a></button>
-</header>
+<header style="padding:50px; display: inline-block; width: 100%;">
+  <div>
+    <img src="headshot_web.png" alt="A woman wearing glasses and smiling"
+    style="padding-left:1%; float:left; max-width: 40%;" />
+  </div>
+  <div class="flex-container">
+    <h1 class="w3-margin w3-jumbo">Olaya Fernández Gayol, PhD</h1>
+    <p class="w3-xlarge">(she/her/hers)</p>
+    <h2 class="w3-large">Postdoctoral Research Scientist</h2>
+    <p class="w3-large">Zeltser lab, Department of Pediatrics<br/> Columbia University Medical Center</p>
+    <p class="w3-large"> <a href="mailto:of2194@cumc.columbia.edu" target="_blank"> of2194@cumc.columbia.edu </a> </p>
+      <div>
+        <button class="w3-button w3-blue-grey w3-padding-large w3-large w3-margin-top">Full Bio</button>
+        <button class="w3-button w3-blue-grey w3-padding-large w3-large w3-margin-top"><a href="CV_Olaya_Fernandez_Gayol_2021.pdf" target="_blank">CV</a></button>  
+      </div>
+  </div>
+  </header>
 
 <!-- First Grid: Research -->
 <div class="w3-row-padding w3-padding-64 w3-container">
