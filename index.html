@@ -3,13 +3,7 @@
 <title>Olaya Fernández Gayol, PhD</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700;800&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 header {background-color: rgba(255, 255, 255, 0);
@@ -19,12 +13,24 @@ h2 {font-family: "Montserrat", sans-serif; font-weight: 700;}
 h3,h4,h5,h6 {font-family: 'Lora', serif;}
 .w3-bar,button, body {font-family: "Montserrat", sans-serif; font-weight: 200;}
 .fa-list, .fa-handshake-o, .fa-wrench {font-size:100px}
-.flex-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
-}
+div.wrapper {
+		position: relative;
+		display:flex;
+    align-items: center;
+    width: 100%;
+		}
+		div.left {
+		float: left;
+		width: 50%;
+		}	
+		div.right {
+		float: right;
+		width: 50%;
+		display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+		}
 
 .w3-button {background-color: #d79922;}
 </style>
@@ -52,21 +58,25 @@ h3,h4,h5,h6 {font-family: 'Lora', serif;}
 </div>
 
 <!-- Header -->
-<header style="padding: 50px;; display: inline-block; width: 100%;">
-  <div>
-    <img src="headshot_web.png" alt="A woman wearing glasses and smiling"
-    style="padding-left:1%; float:left; max-width: 40%;" />
+<header style="padding: 60px;; display: inline-block; width: 100%;">
+  <div class="wrapper">
+    <div class="left">
+      <img src="headshot_web.png" alt="A woman wearing glasses and smiling"
+      style="padding-left:1%; max-width: 100%;"/>
+    </div>
+    <div class="right">
+      <h1 class="w3-margin">Olaya Fernández Gayol, PhD</h1>
+      <p class="w3-large" style="margin-top: 0;">(she/her/hers)</p>
+      <h2>Postdoctoral Research Scientist</h2>
+      <p class="w3-large">Zeltser lab, Department of Pediatrics<br/> Columbia University Medical Center</p>
+      <p class="w3-large"> <a href="mailto:of2194@cumc.columbia.edu" target="_blank"> of2194@cumc.columbia.edu </a> </p>
+        <div>
+          <button class="w3-button w3-padding-large w3-large w3-margin-top"><a href="CV_Olaya_Fernandez_Gayol_2021.pdf" target="_blank">CV</a></button>  
+        </div>
+    </div>
+    
   </div>
-  <div class="flex-container">
-    <h1 class="w3-margin w3-jumbo">Olaya Fernández Gayol, PhD</h1>
-    <p class="w3-xlarge">(she/her/hers)</p>
-    <h2 class="w3-large">Postdoctoral Research Scientist</h2>
-    <p class="w3-large">Zeltser lab, Department of Pediatrics<br/> Columbia University Medical Center</p>
-    <p class="w3-large"> <a href="mailto:of2194@cumc.columbia.edu" target="_blank"> of2194@cumc.columbia.edu </a> </p>
-      <div>
-        <button class="w3-button w3-padding-large w3-large w3-margin-top"><a href="CV_Olaya_Fernandez_Gayol_2021.pdf" target="_blank">CV</a></button>  
-      </div>
-  </div>
+  
   </header>
 
 <!-- First Grid: Research -->
@@ -215,4 +225,12 @@ function myFunction() {
     </body>
 
 </html>
+
+/Import google fonts
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
 -->
