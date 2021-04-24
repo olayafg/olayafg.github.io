@@ -85,7 +85,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-col.l5{width:41.66666%}.w3-col.l6{width:49.99999%}.w3-col.l7{width:58.33333%}.w3-col.l8{width:66.66666%}
 .w3-col.l9{width:74.99999%}.w3-col.l10{width:83.33333%}.w3-col.l11{width:91.66666%}.w3-col.l12{width:99.99999%}}
 .w3-rest{overflow:hidden}.w3-stretch{margin-left:-16px;margin-right:-16px}
-.w3-content,.w3-auto{margin-left:auto;margin-right:auto}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
+.w3-content,.w3-auto{margin-left:2%;margin-right:2%}.w3-content{max-width:980px}.w3-auto{max-width:1140px}
 .w3-cell-row{display:table;width:100%}.w3-cell{display:table-cell}
 .w3-cell-top{vertical-align:top}.w3-cell-middle{vertical-align:middle}.w3-cell-bottom{vertical-align:bottom}
 .w3-hide{display:none!important}.w3-show-block,.w3-show{display:block!important}.w3-show-inline-block{display:inline-block!important}
@@ -154,6 +154,12 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-transparent,.w3-hover-none:hover{background-color:transparent!important}
 .w3-hover-none:hover{box-shadow:none!important}
 /* Colors */
+.w3-buttercup,.w3-hover-buttercup:hover{color:#000!important;background-color:#d79922!important}
+.w3-faint-yellow,.w3-hover-faint-yellow:hover{color:#000!important;background-color:#efe2ba!important}
+.w3-san-marino,.w3-hover-san-marino:hover{color:#000!important;background-color:#4056a1!important}
+.w3-periwinkle,.w3-hover-periwinkle{color:#000!important;background-color:#c5cbe3!important} 
+.w3-pomegranate,.w3-hover-pomegranate{color:#000!important;background-color:#f13c20!important} 
+
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
 .w3-aqua,.w3-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
 .w3-blue,.w3-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
@@ -184,6 +190,13 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-pale-green,.w3-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
 .w3-pale-yellow,.w3-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
 .w3-pale-blue,.w3-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+
+.w3-text-buttercup{color:#d79922!important}
+.w3-text-faint-yellow{color:#efe2ba!important}
+.w3-text-san-marino{color:#4056a1!important}
+.w3-text-periwinkle{color:#c5cbe3!important}
+.w3-text-pomegranate{color:#f13c20!important}
+
 .w3-text-amber,.w3-hover-text-amber:hover{color:#ffc107!important}
 .w3-text-aqua,.w3-hover-text-aqua:hover{color:#00ffff!important}
 .w3-text-blue,.w3-hover-text-blue:hover{color:#2196F3!important}
